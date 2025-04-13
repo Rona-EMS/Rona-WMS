@@ -1,0 +1,14 @@
+import { WorkerSettings } from '@/components/worker/worker-settings'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Settings"
+    subheading="Configure your account preferences"
+  />
+  
+  <div className="grid gap-8">
+    <WorkerSettings />
+  </div>
+</DashboardShell>

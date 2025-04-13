@@ -1,0 +1,14 @@
+import { OwnerProfile } from '@/components/owner/owner-profile'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Your Profile"
+    subheading="View and update your personal and business information"
+  />
+  
+  <div className="grid gap-8">
+    <OwnerProfile />
+  </div>
+</DashboardShell>

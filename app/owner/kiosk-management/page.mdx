@@ -1,0 +1,14 @@
+import { KioskManagement } from '@/components/owner/kiosk-management'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Kiosk Management"
+    subheading="Manage your kiosk devices and settings"
+  />
+  
+  <div className="grid gap-8">
+    <KioskManagement />
+  </div>
+</DashboardShell>

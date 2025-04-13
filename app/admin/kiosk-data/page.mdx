@@ -1,0 +1,14 @@
+import { KioskData } from '@/components/admin/kiosk-data'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Kiosk Data"
+    subheading="View and manage data from kiosk devices"
+  />
+  
+  <div className="grid gap-8">
+    <KioskData />
+  </div>
+</DashboardShell>

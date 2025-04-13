@@ -1,0 +1,14 @@
+import { IssueReporting } from '@/components/saas-admin/issue-reporting'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Issue Reporting"
+    subheading="View and manage reported platform issues"
+  />
+  
+  <div className="grid gap-8">
+    <IssueReporting />
+  </div>
+</DashboardShell>

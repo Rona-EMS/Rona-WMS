@@ -1,0 +1,14 @@
+import { ClockComponent } from '@/components/worker/clock-component'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Time Clock"
+    subheading="Clock in and out for your shifts"
+  />
+  
+  <div className="grid gap-8">
+    <ClockComponent />
+  </div>
+</DashboardShell>

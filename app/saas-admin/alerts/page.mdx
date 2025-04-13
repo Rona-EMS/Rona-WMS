@@ -1,0 +1,14 @@
+import { AlertManagement } from '@/components/saas-admin/alert-management'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="System Alerts"
+    subheading="View and manage system alerts and notifications"
+  />
+  
+  <div className="grid gap-8">
+    <AlertManagement />
+  </div>
+</DashboardShell>

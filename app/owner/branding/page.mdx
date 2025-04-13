@@ -1,0 +1,14 @@
+import { BrandingManagement } from '@/components/owner/branding-management'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Branding"
+    subheading="Customize your company branding"
+  />
+  
+  <div className="grid gap-8">
+    <BrandingManagement />
+  </div>
+</DashboardShell>

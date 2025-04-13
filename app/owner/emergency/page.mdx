@@ -1,0 +1,14 @@
+import { EmergencyReportForm } from '@/components/owner/emergency-report-form'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Emergency Report"
+    subheading="Report emergency situations at your facility"
+  />
+  
+  <div className="grid gap-8">
+    <EmergencyReportForm />
+  </div>
+</DashboardShell>

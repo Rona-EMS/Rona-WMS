@@ -1,0 +1,14 @@
+import { FinancialOverview } from '@/components/owner/financial-overview'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Financial Overview"
+    subheading="Monitor your business finances and payroll expenses"
+  />
+  
+  <div className="grid gap-8">
+    <FinancialOverview />
+  </div>
+</DashboardShell>

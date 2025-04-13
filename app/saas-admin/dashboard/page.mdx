@@ -1,0 +1,14 @@
+import { SaasAdminDashboard } from '@/components/saas-admin/saas-admin-dashboard'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="SaaS Admin Dashboard"
+    subheading="Manage clients, subscriptions, and monitor platform performance"
+  />
+  
+  <div className="grid gap-8">
+    <SaasAdminDashboard />
+  </div>
+</DashboardShell>

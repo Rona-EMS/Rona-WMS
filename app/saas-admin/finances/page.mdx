@@ -1,0 +1,18 @@
+import { FinancialOverview } from '@/components/saas-admin/finances/financial-overview'
+import { TransactionTables } from '@/components/saas-admin/finances/transaction-tables'
+import { DateRangePicker } from '@/components/saas-admin/finances/date-range-picker'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Financial Overview"
+    subheading="Monitor platform revenue and financial metrics"
+  />
+  
+  <div className="grid gap-8">
+    <DateRangePicker />
+    <FinancialOverview />
+    <TransactionTables />
+  </div>
+</DashboardShell>

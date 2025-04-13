@@ -1,0 +1,14 @@
+import { ReportsManagement } from '@/components/owner/reports-management'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Reports"
+    subheading="Generate and view business reports"
+  />
+  
+  <div className="grid gap-8">
+    <ReportsManagement />
+  </div>
+</DashboardShell>

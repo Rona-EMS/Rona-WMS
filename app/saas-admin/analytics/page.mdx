@@ -1,0 +1,14 @@
+import { UsageAnalytics } from '@/components/saas-admin/analytics/usage-analytics'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Platform Analytics"
+    subheading="Monitor platform usage and performance metrics"
+  />
+  
+  <div className="grid gap-8">
+    <UsageAnalytics />
+  </div>
+</DashboardShell>

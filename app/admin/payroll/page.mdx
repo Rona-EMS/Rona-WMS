@@ -1,0 +1,14 @@
+import { PayrollManagement } from '@/components/admin/payroll-management'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Payroll Management"
+    subheading="Process and manage employee payroll"
+  />
+  
+  <div className="grid gap-8">
+    <PayrollManagement />
+  </div>
+</DashboardShell>

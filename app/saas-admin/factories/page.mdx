@@ -1,0 +1,16 @@
+import { FactoryOverview } from '@/components/saas-admin/factories/factory-overview'
+import { FactoryManagement } from '@/components/saas-admin/factories/factory-management'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Factory Management"
+    subheading="Manage client factories and locations"
+  />
+  
+  <div className="grid gap-8">
+    <FactoryOverview />
+    <FactoryManagement />
+  </div>
+</DashboardShell>

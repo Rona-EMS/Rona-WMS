@@ -1,0 +1,14 @@
+import { NotificationsComponent } from '@/components/worker/notifications-component'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Notifications"
+    subheading="View your notifications and alerts"
+  />
+  
+  <div className="grid gap-8">
+    <NotificationsComponent />
+  </div>
+</DashboardShell>

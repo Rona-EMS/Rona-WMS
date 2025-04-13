@@ -1,0 +1,14 @@
+import { SecurityMonitoring } from '@/components/saas-admin/security-monitoring'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Security Monitoring"
+    subheading="Monitor and manage platform security"
+  />
+  
+  <div className="grid gap-8">
+    <SecurityMonitoring />
+  </div>
+</DashboardShell>

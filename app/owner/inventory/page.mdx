@@ -1,0 +1,14 @@
+import { InventoryManagement } from '@/components/owner/inventory-management'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Inventory Management"
+    subheading="Track and manage your inventory"
+  />
+  
+  <div className="grid gap-8">
+    <InventoryManagement />
+  </div>
+</DashboardShell>

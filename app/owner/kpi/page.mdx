@@ -1,0 +1,14 @@
+import { KpiDashboard } from '@/components/owner/kpi-dashboard'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="KPI Dashboard"
+    subheading="Monitor key performance indicators for your business"
+  />
+  
+  <div className="grid gap-8">
+    <KpiDashboard />
+  </div>
+</DashboardShell>

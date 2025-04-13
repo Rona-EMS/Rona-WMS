@@ -1,0 +1,14 @@
+import { WorkerRequests } from '@/components/worker/worker-requests'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Your Requests"
+    subheading="Submit and track leave requests and shift swaps"
+  />
+  
+  <div className="grid gap-8">
+    <WorkerRequests />
+  </div>
+</DashboardShell>

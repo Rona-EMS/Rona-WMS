@@ -1,0 +1,14 @@
+import { EmailManagement } from '@/components/saas-admin/email-management'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Email Management"
+    subheading="Manage system email templates and notifications"
+  />
+  
+  <div className="grid gap-8">
+    <EmailManagement />
+  </div>
+</DashboardShell>

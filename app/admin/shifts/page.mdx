@@ -1,0 +1,14 @@
+import { ShiftScheduler } from '@/components/admin/shift-scheduler'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Shift Management"
+    subheading="Schedule and manage employee shifts"
+  />
+  
+  <div className="grid gap-8">
+    <ShiftScheduler />
+  </div>
+</DashboardShell>

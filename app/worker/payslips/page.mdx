@@ -1,0 +1,14 @@
+import { WorkerPayslips } from '@/components/worker/worker-payslips'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Your Payslips"
+    subheading="View and download your payslips"
+  />
+  
+  <div className="grid gap-8">
+    <WorkerPayslips />
+  </div>
+</DashboardShell>

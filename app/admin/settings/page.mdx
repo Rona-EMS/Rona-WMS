@@ -1,0 +1,14 @@
+import { AdminSettings } from '@/components/admin/admin-settings'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Settings"
+    subheading="Configure system settings and preferences"
+  />
+  
+  <div className="grid gap-8">
+    <AdminSettings />
+  </div>
+</DashboardShell>

@@ -1,0 +1,14 @@
+import { QrClockComponent } from '@/components/worker/qr-clock-component'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="QR Clock"
+    subheading="Clock in and out using QR codes"
+  />
+  
+  <div className="grid gap-8">
+    <QrClockComponent />
+  </div>
+</DashboardShell>

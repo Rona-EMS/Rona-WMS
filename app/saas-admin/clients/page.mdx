@@ -1,0 +1,14 @@
+import { ClientManagement } from '@/components/saas-admin/client-management'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Client Management"
+    subheading="Manage platform clients and their accounts"
+  />
+  
+  <div className="grid gap-8">
+    <ClientManagement />
+  </div>
+</DashboardShell>

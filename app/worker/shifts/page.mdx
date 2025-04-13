@@ -1,0 +1,14 @@
+import { WorkerShifts } from '@/components/worker/worker-shifts'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Your Shifts"
+    subheading="View your upcoming and past shifts"
+  />
+  
+  <div className="grid gap-8">
+    <WorkerShifts />
+  </div>
+</DashboardShell>

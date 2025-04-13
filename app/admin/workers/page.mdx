@@ -1,0 +1,14 @@
+import { WorkerManagement } from '@/components/admin/worker-management'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Worker Management"
+    subheading="Add, edit, and manage your workforce"
+  />
+  
+  <div className="grid gap-8">
+    <WorkerManagement />
+  </div>
+</DashboardShell>

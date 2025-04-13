@@ -1,0 +1,14 @@
+import { WorkerAttendance } from '@/components/worker/worker-attendance'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Your Attendance"
+    subheading="View your attendance history and statistics"
+  />
+  
+  <div className="grid gap-8">
+    <WorkerAttendance />
+  </div>
+</DashboardShell>

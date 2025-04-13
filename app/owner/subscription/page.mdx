@@ -1,0 +1,14 @@
+import { SubscriptionManagement } from '@/components/owner/subscription-management'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Subscription Management"
+    subheading="Manage your subscription plan and billing"
+  />
+  
+  <div className="grid gap-8">
+    <SubscriptionManagement />
+  </div>
+</DashboardShell>

@@ -1,0 +1,14 @@
+import { OwnerDashboard } from '@/components/owner/owner-dashboard'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Owner Dashboard"
+    subheading="Monitor your business performance and manage your workforce"
+  />
+  
+  <div className="grid gap-8">
+    <OwnerDashboard />
+  </div>
+</DashboardShell>

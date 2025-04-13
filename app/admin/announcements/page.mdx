@@ -1,0 +1,14 @@
+import { AnnouncementManagement } from '@/components/admin/announcement-management'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Announcements"
+    subheading="Create and manage company announcements"
+  />
+  
+  <div className="grid gap-8">
+    <AnnouncementManagement />
+  </div>
+</DashboardShell>

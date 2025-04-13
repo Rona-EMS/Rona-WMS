@@ -1,0 +1,14 @@
+import { WorkerDashboard } from '@/components/worker/worker-dashboard'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Worker Dashboard"
+    subheading="View your schedule, clock in/out, and manage your requests"
+  />
+  
+  <div className="grid gap-8">
+    <WorkerDashboard />
+  </div>
+</DashboardShell>

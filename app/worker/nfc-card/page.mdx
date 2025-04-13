@@ -1,0 +1,14 @@
+import { NfcCardManagement } from '@/components/worker/nfc-card-management'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="NFC Card Management"
+    subheading="View and manage your NFC card"
+  />
+  
+  <div className="grid gap-8">
+    <NfcCardManagement />
+  </div>
+</DashboardShell>

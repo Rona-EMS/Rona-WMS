@@ -1,0 +1,16 @@
+import { UserManagement } from '@/components/saas-admin/users/user-management'
+import { UserStatistics } from '@/components/saas-admin/users/user-statistics'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="User Management"
+    subheading="Manage platform users and their permissions"
+  />
+  
+  <div className="grid gap-8">
+    <UserStatistics />
+    <UserManagement />
+  </div>
+</DashboardShell>

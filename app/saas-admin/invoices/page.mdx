@@ -1,0 +1,14 @@
+import { InvoiceManagement } from '@/components/saas-admin/invoice-management'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Invoice Management"
+    subheading="Manage and generate client invoices"
+  />
+  
+  <div className="grid gap-8">
+    <InvoiceManagement />
+  </div>
+</DashboardShell>

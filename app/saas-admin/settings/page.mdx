@@ -1,0 +1,14 @@
+import { SettingsForm } from '@/components/saas-admin/settings/settings-form'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Platform Settings"
+    subheading="Configure global platform settings"
+  />
+  
+  <div className="grid gap-8">
+    <SettingsForm />
+  </div>
+</DashboardShell>

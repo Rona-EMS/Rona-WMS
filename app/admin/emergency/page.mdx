@@ -1,0 +1,14 @@
+import { EmergencyManagement } from '@/components/admin/emergency-management'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Emergency Management"
+    subheading="View and respond to emergency reports"
+  />
+  
+  <div className="grid gap-8">
+    <EmergencyManagement />
+  </div>
+</DashboardShell>

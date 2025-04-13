@@ -1,0 +1,14 @@
+import { OwnerSettings } from '@/components/owner/owner-settings'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Settings"
+    subheading="Configure your account and system settings"
+  />
+  
+  <div className="grid gap-8">
+    <OwnerSettings />
+  </div>
+</DashboardShell>

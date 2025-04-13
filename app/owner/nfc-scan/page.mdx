@@ -1,0 +1,14 @@
+import { NfcScanComponent } from '@/components/owner/nfc-scan-component'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="NFC Card Scanner"
+    subheading="Scan employee NFC cards to view their information"
+  />
+  
+  <div className="grid gap-8">
+    <NfcScanComponent />
+  </div>
+</DashboardShell>

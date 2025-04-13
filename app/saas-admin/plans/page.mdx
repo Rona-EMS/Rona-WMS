@@ -1,0 +1,14 @@
+import { CustomPlansManagement } from '@/components/saas-admin/plans/custom-plans-management'
+import { PageHeader } from '@/components/page-header'
+import { DashboardShell } from '@/components/dashboard-shell'
+
+<DashboardShell>
+  <PageHeader
+    heading="Subscription Plans"
+    subheading="Manage subscription plans and pricing"
+  />
+  
+  <div className="grid gap-8">
+    <CustomPlansManagement />
+  </div>
+</DashboardShell>
